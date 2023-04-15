@@ -40,6 +40,7 @@ a {
 h2 {
     color:  rgb(48, 139, 201);
     margin: 20px 0;
+    border-bottom: 4px solid rgb(48, 139, 201);
 }
 
 h3 { 
