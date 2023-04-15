@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP Shoes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>PHP SHOES</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#sobre">Sobre a loja</a>
+                    </li>
+                    <li>
+                        <a href="#produtos">Produtos</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Sobre a Loja</h2>
+        <section class="sobre" id="sobre">
+            <img src="https://www.decoracaoearte.com.br/wp-content/uploads/2015/05/Como-decorar-loja-de-cal%C3%A7ado-002.jpg" alt="" />
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam exercitationem dolorum voluptatum nesciunt qui. 
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam exercitationem dolorum voluptatum nesciunt qui. 
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam exercitationem dolorum voluptatum nesciunt qui. 
+            </p>
+        </section>
+            <section id="produtos">
+                <h2>Produtos</h2>
+                <div  class="produtos">
+                    <article class="produto">
+                            <img src="https://static.netshoes.com.br/produtos/tenis-adidas-ultimashow-masculino/26/NQQ-6927-026/NQQ-6927-026_zoom1.jpg?ts=1612440206&ims=544x" alt="" />
+                            <h3>
+                                Tênis XPTO modelo ZYK 
+                            </h3>
+                            <p>
+                                Tênis XPTO preto, disponível nos tamanhos: 37,38,39.
+                            </p>
+                            <button type="button">Adicionar ao carrinho</button>
+                    </article>
+                    <article class="produto">
+                            <img src="https://static.netshoes.com.br/produtos/tenis-adidas-ultimashow-masculino/14/NQQ-6927-014/NQQ-6927-014_zoom1.jpg?ts=1612440202&ims=544x" alt="" />
+                            <h3>
+                                Tênis TNT modelo TOP 
+                            </h3>
+                            <p>
+                                Tênis TNT branco, disponível nos tamanhos: 46,47,48.
+                            </p>
+                            <button type="button">Adicionar ao carrinho</button>
+                    </article>
+                    <article class="produto">
+                            <img src="https://static.netshoes.com.br/produtos/tenis-mizuno-feminino-mirai-4/27/2FU-6157-827/2FU-6157-827_zoom1.jpg?ts=1664325412&ims=544x" alt="" />
+                            <h3>
+                                Tênis AWZ modelo 3 
+                            </h3>
+                            <p>
+                                Tênis AWZ pink, disponível nos tamanhos: 34,35,36.
+                            </p>
+                            <button type="button">Adicionar ao carrinho</button>
+                    </article>
+                    <article class="produto">
+                            <img src="https://static.netshoes.com.br/produtos/tenis-asics-gel-impression-11-masculino/05/2FW-0179-405/2FW-0179-405_zoom1.jpg?ts=1675787894&ims=544x" alt="" />
+                            <h3>
+                                Tênis XMPT modelo KVM 
+                            </h3>
+                            <p>
+                                Tênis XMPT azul, disponível nos tamanhos: 39,40,41.
+                            </p>
+                            <button type="button">Adicionar ao carrinho</button>
+                    </article>
+                </div>
+            </section>
+    </div>
+    <footer>
+        BY PHP &copy - Direitos Reservados
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() { 
+            $('.botao-menu button').click(function () {
+                $('.menu-principal').slideToggle();
+            })
+        })
+    </script>
+</body>
+</html>
